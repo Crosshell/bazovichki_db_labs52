@@ -1,8 +1,8 @@
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    '@vuepress/back-to-top', 
-    '@vuepress/pwa', 
+    '@vuepress/back-to-top',
+    '@vuepress/pwa',
     {
       serviceWorker: true,
       updatePopup: true
@@ -15,14 +15,13 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/edu_db_labs/',
+  base: '/bazovichki_db_labs/',
   theme: 'cool',
   // dest: 'dist',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }],
     ['link', {href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel :'stylesheet'}],
-    
   ],
   themeConfig: {
     // logo: './myAvatar.png',
@@ -38,7 +37,6 @@ module.exports = {
           '/requirements/state-of-the-art',
           '/requirements/stakeholders-needs',
         ]
-      
     },
 
     {
@@ -76,7 +74,7 @@ module.exports = {
 
     lastUpdated: 'Останнє оновлення', // string | boolean
       // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'https://github.com/edu-db/edu_db_labs',
+    repo: 'https://github.com/Crosshell/bazovichki_db_labs',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Github',
@@ -95,7 +93,7 @@ module.exports = {
     // editLinkText: 'Ви можете покращити цю сторінку'
 
   },
-  title: 'Назва проєкту',
+  title: 'Система аналізу медіа-контенту',
   description: 'Лабораторні роботи з дисципліни "Організація баз даних"',
   configureWebpack: {
     resolve: {

@@ -3,13 +3,13 @@
   "version": "2.1.0",
   "main": "index.js",
   "description": "Databases labs template",
-  "repository": "https://github.com/boldak/dis-edu",
-  "author": "Andrey Boldak <boldak.andrey@gmail.com>",
+  "repository": "https://github.com/Crosshell/bazovichki_db_labs",
+  "author": "Vladyslav Berdychevskyi <vladyslavberdychevskyi@gmail.com>",
   "license": "ECL 2.0",
   "scripts": {
     "docs:dev": "npx vuepress dev docs",
     "docs:build": "npx vuepress build docs",
-    "publish": "publish.sh"
+    "publish": "sh publish.sh"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
